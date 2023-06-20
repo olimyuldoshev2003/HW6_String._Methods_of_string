@@ -415,7 +415,7 @@ l
 
 # JavaScript Number methods
 
-In js we've many types of the methods of number methods like strings, but the main methods are this:
+In js we've many types of number methods like strings, but the main methods are this:
 
 
 

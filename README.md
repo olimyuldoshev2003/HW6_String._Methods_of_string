@@ -531,3 +531,23 @@ let res = Math.sqrt(num);
 10
 ```
 
+## JavaScript String method Math.abs() and Math.random()
+
+The abs() method finds the absolute value of the specified number (without any sign) and returns it.
+
+<h2 style="color:red;">Example:</h2>
+
+```js
+let num = -100;
+let res = Math.abs(num);
+```
+
+<h2 style="color:red;">Output:</h2>
+
+```js
+100
+```
+
+The Math.random() function returns a floating-point, pseudo-random number between 0 (inclusive)
+and 1 (exclusive).
+

@@ -538,8 +538,8 @@ The abs() method finds the absolute value of the specified number (without any s
 <h2 style="color:red;">Example:</h2>
 
 ```js
-let num = -100;
-let res = Math.abs(num);
+let num = Math.abs(-100);
+console.log(num)
 ```
 
 <h2 style="color:red;">Output:</h2>
@@ -551,3 +551,36 @@ let res = Math.abs(num);
 The Math.random() function returns a floating-point, pseudo-random number between 0 (inclusive)
 and 1 (exclusive).
 
+<h2 style="color:red;">Example:</h2>
+
+```js
+let num = Math.random()*10;
+console.log(num);
+```
+
+<h2 style="color:red;">Output:</h2>
+
+```js
+4.051126874036138
+```
+
+## JavaScript Number method isNaN()
+
+The isNaN() function checks if a value is NaN (Not-a-Number) or not.
+
+<h2 style="color:red;">Example:</h2>
+
+```js
+let num1 = NaN;
+let num2 = 1;
+let res1 = isNaN(num1)
+let res2 = isNaN(num2);
+console.log(res1);
+console.log(res2);
+```
+<h2 style="color:red;">Output:</h2>
+
+```js
+true
+false
+```

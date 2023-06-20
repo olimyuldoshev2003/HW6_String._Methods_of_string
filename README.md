@@ -435,3 +435,99 @@ let res = Math.floor(num);
 ```js
 3
 ```
+
+The Math.round() function returns the number rounded to the nearest integer.
+
+<h2 style="color:red;">Example:</h2>
+
+```js
+let num = 3.9;
+let res = Math.round(num);
+```
+
+<h2 style="color:red;">Output:</h2>
+
+```js
+4
+```
+
+The ceil() method rounds a decimal number up to the next largest integer and returns it.
+
+<h2 style="color:red;">Example:</h2>
+
+```js
+let num = 3.2;
+let res = Math.ceil(num);
+```
+
+<h2 style="color:red;">Output:</h2>
+
+```js
+4
+```
+
+## JavaScript Number methods Math.max() and Math.min()
+
+The max() method finds the maximum value among the specified values and returns it.
+
+<h2 style="color:red;">Example:</h2>
+
+```js
+let num1 = 3.2, num2 = 3.9, num3 = 10;
+let res = Math.max(num1, num2, num3);
+```
+
+<h2 style="color:red;">Output:</h2>
+
+```js
+10
+```
+
+The min() method finds the minimum value among the specified values and returns it.
+
+<h2 style="color:red;">Example:</h2>
+
+```js
+let num1 = 3.2, num2 = 3.9, num3 = 10;
+let res = Math.min(num1, num2, num3);
+```
+
+<h2 style="color:red;">Output:</h2>
+
+```js
+3.2
+```
+
+## JavaScript Number methods Math.pow() and Math.sqrt()
+
+The pow() method computes the power of a number by raising the second argument
+to the power of the first argument.
+
+<h2 style="color:red;">Example:</h2>
+
+```js
+let num = 10;
+let res = Math.pow(num, 3);
+```
+
+<h2 style="color:red;">Output:</h2>
+
+```js
+1000
+```
+
+The sqrt() method computes the square root of a specified number and returns it
+
+<h2 style="color:red;">Example:</h2>
+
+```js
+let num = 100;
+let res = Math.sqrt(num);
+```
+
+<h2 style="color:red;">Output:</h2>
+
+```js
+10
+```
+
